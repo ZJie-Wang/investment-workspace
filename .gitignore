@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# 敏感信息：token 与持仓
+.env
+portfolio.json
+
+# 本地 agent 配置（skill 若安装在工作区内，也会被排除）
+.pi/
+.claude/
+.codex/
+
+# 用户自己的研究任务默认不入库；保留示例任务
+tasks/*
+!tasks/20260718_Ashare_Weekly_Snapshot/
