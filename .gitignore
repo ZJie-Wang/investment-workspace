@@ -16,6 +16,6 @@ portfolio.json
 .claude/
 .codex/
 
-# 用户自己的研究任务默认不入库；保留示例任务
+# 用户自己的研究任务默认不入库（示例任务位于 example_task/，不受影响）
 tasks/*
-!tasks/20260718_Ashare_Weekly_Snapshot/
+!tasks/.gitkeep
