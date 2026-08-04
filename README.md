@@ -32,7 +32,7 @@ pip install -r requirements.txt
 
 ### 2. 配置 Tushare Token
 
-研究任务主要通过 [Tushare Pro](https://tushare.pro) 获取 A 股数据。选择 tushare 是因为它相比 akshare 更稳定，同时注册起来比较容易，价格也相对便宜。
+研究任务主要通过 [Tushare Pro](https://tushare.pro) 获取 A 股数据。选择 tushare 是因为它比较稳定，同时注册起来容易，价格也相对便宜。
 
 注册后在个人主页获取 token，然后：
 
