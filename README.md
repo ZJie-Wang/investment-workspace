@@ -73,7 +73,7 @@ agent 会自动在 `tasks/` 下按 `YYYYMMDD_任务描述` 建独立文件夹，
 
 如果你愿意在这个目录里二次加工，我认为最有价值的两件事就是：
 1. 通读并调整 `AGENTS.md`
-2. 自己在（以 pi 为例）`.pi/skills` 里写一些与投资分析相关的 skills。例如，若你有自己的 backtest 策略，就可以写一个 backtest skill；若你有自己的组合构建偏好，可以写一个 portfolio construction skill 等等。
+2. 自己在（以 pi 为例）`.pi/skills` 里写一些与投资分析相关的 skills。例如，若你有自己的 backtest 策略，就可以写一个 backtest skill；若你有自己的组合优化偏好，可以写一个 portfolio optimization skill 等等。
 
 此外，请不要低估手写 SKILL 或 AGENTS.md 的价值。如果你不想自己的 agent 只能沦为华而不实的玩具，那么静下心写这些文件是绝对有必要且有意义的（当然我们可以借助 AI 辅助来写，但其中必须要有我们自己的观点）。
 
