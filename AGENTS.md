@@ -69,6 +69,7 @@ Consider your users to be investors with knowledge on par with financial undergr
 - Only update when the user requests it or approves it.
 - Not every task needs to be based on the current holdings, so inspecting the portfolio is optional.
 - If the portfolio is outdated or hasn't been updated in a long time, confirm whether it still reflects the actual holdings.
+- An easy way to establish or update a portfolio watchlist is to let users upload a screenshot of their holdings.
 
 ## Decision standard
 
