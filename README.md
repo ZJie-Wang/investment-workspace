@@ -71,7 +71,7 @@ agent 会自动在 `tasks/` 下按 `YYYYMMDD_任务描述` 建独立文件夹，
 
 我非常不认同很多人在 Hermes 或 OpenClaw 动辄加载几十甚至上百个 skills 这种做法，至少目前，还没有哪个模型能完全不受上下文污染的影响。此外，我认为我们应该更有意识地管理上下文，以及我们运行 agent 的目录。
 
-其实，tushare 官方就有提供可以直接使用的 skill：https://github.com/waditu-tushare/skills。但其质量真的一言难尽，因此我重新做了一个版本，哪怕在模型表现上不能有显著提升，也至少能让上下文干净一点。
+其实，tushare 官方就有提供可以直接使用的 skill：https://github.com/waditu-tushare/skills 。但其质量真的一言难尽，因此我重新做了一个版本，哪怕在模型表现上不能有显著提升，也至少能让上下文干净一点。
 
 如果你愿意在这个目录里二次加工，我认为最有价值的两件事就是：
 1. 通读并调整 `AGENTS.md`
