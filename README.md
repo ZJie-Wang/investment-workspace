@@ -42,7 +42,7 @@ cp .env.example .env
 
 ### 3. 安装 tushare-endpoints skill
 
-`skills/tushare-endpoints` 是给 agent 看的 Tushare 接口使用指南（接口目录、环境检查、参数规范化等）。它在这个仓库里仅作展示，需要安装到你所用 agent 的 skill 目录才能生效。
+`skills/tushare-endpoints` 是给 agent 看的 Tushare 接口使用指南，需要安装到你所用 harness 的 skill 目录才能生效。
 
 以 pi 为例，可以安装在 `~/.pi/agent/skills/`，或工作目录的 `.pi/skills/` 中；Claude Code 则对应 `~/.claude/skills/` 或工作目录的 `.claude/skills/`。安装方式就是把整个 `tushare-endpoints` 文件夹复制到对应位置。
 
@@ -56,7 +56,7 @@ agent 会自动在 `tasks/` 下按 `YYYYMMDD_任务描述` 建独立文件夹，
 
 ## 示例任务
 
-[`example_task/`](example_task/Memo.md) 是一个我之前跑过的任务。当时用的模型是 `glm-5.2`，提示词大概就是让它做一个市场快照。这个例子的质量其实很一般，把它放在这里仅作参考，开始跑自己的任务之前把它删掉即可。
+[`example_task/`](example_task/Memo.md) 是之前跑过的一个测试任务。当时用的模型是 `glm-5.2`，提示词大概就是让它做一个市场快照。这个例子的质量其实很一般，把它放在这里仅作参考，开始跑自己的任务之前把它删掉即可。
 
 ## License
 
